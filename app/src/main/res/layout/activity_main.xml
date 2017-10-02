@@ -22,8 +22,9 @@
 
         <org.honorato.multistatetogglebutton.MultiStateToggleButton
             android:id="@+id/mstb_multi_id"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             mstb:values="@array/category_arrays"
             mstb:mstbPrimaryColor="@color/white"
             mstb:mstbSecondaryColor="@color/green"/>
